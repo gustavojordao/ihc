@@ -1,7 +1,9 @@
-#index {
+.background_class {
   margin: 0 auto;
   padding: 0;
   background-image: url(assets/images/background_index.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -46,6 +48,38 @@ a, a.visited {
   font-family: "Titan One";
   font-size: 50px;
   text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+}
+
+.dificulty_rounded_corner {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 75px;    
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+.back_rounded_corner {
+  position: ;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 75px;    
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.default_text{
+  font-family: "Titan One";
+  font-size: 50px;
   text-decoration: none;
   color: #3b4049;
 }
