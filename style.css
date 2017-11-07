@@ -35,19 +35,32 @@ a, a.visited {
   color: #3b4049;
 }
 
-#acessibilidade {
+#ajuda {
   position: absolute;
   bottom: -100px;
   left: -50px;
 }
 
-#texto_acess {
+#texto_ajuda {
   position: absolute;
   bottom: 100px;
-  left: 10px;
+  left: 35px;
   font-family: "Titan One";
-  font-size: 50px;
+  font-size: 90px;
   text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+}
+
+#interrogacao {
+  position: absolute;
+  bottom: -50px;
+  left: 80px;
+  margin: 0 auto;
+  font-family: "Titan One";
+  font-size: 400px;
+  text-align: center;
+  opacity: 0.5;
   text-decoration: none;
   color: #3b4049;
 }
@@ -55,9 +68,9 @@ a, a.visited {
 .dificulty_rounded_corner {
   border-radius: 25px;
   background: #73AD21;
-  padding: 20px; 
+  padding: 20px;
   width: 200px;
-  height: 75px;    
+  height: 75px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -68,9 +81,9 @@ a, a.visited {
   position: ;
   border-radius: 25px;
   background: #73AD21;
-  padding: 20px; 
+  padding: 20px;
   width: 200px;
-  height: 55px;    
+  height: 55px;
   text-align: center;
   position: absolute;
   bottom: 50px;
