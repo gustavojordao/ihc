@@ -1,0 +1,51 @@
+#index {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(assets/images/background_index.png);
+}
+
+h1 {
+  font-family: "Patua One";
+  font-size: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+}
+
+#jogar {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+#texto_jogar {
+  position: absolute;
+  bottom: 165px;
+  right: 65px;
+  font-family: "Titan One";
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+}
+
+a, a.visited {
+  color: #3b4049;
+}
+
+#acessibilidade {
+  position: absolute;
+  bottom: -100px;
+  left: -50px;
+}
+
+#texto_acess {
+  position: absolute;
+  bottom: 100px;
+  left: 10px;
+  font-family: "Titan One";
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+}
