@@ -61,7 +61,7 @@ a, a.visited {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 75px;
+  margin-bottom: 35px;
 }
 
 .back_rounded_corner {
@@ -70,7 +70,7 @@ a, a.visited {
   background: #73AD21;
   padding: 20px; 
   width: 200px;
-  height: 75px;    
+  height: 55px;    
   text-align: center;
   position: absolute;
   bottom: 50px;
@@ -82,4 +82,9 @@ a, a.visited {
   font-size: 50px;
   text-decoration: none;
   color: #3b4049;
+}
+
+#choose_dificulty{
+  margin-top: 20;
+  font-size: 80;
 }
