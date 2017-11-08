@@ -9,7 +9,7 @@ Engenharia de Computação, CEFET-MG, 2017/2
 * [Gustavo Jordão](https://github.com/gustavojordao)
 * [Thiago Alexandre]()
 
-**Observações ao grupo**
+## MATEMÁGICA
 
-- Conferir exibição em telas de tamanhos diferentes;
-- Lembrar de colocar os gifs do Bob Esponja e do Lula Molusco :D
+O **MATEMÁGICA** é um jogo direcionado a crianças de 7 a 10 anos para que aprendam matemática brincando.
+Este projeto traz apenas as telas navegáveis, não sendo um jogo em pleno funcionamento.
