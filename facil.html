@@ -12,7 +12,7 @@
 			<div class="content_question">
 				<span alt="Dois mais Cinco" class="text_question">2 + 5 = </span>
 			</div>
-			<div class="blank_question">
+			<div id="correct_answer" class="blank_question">
 			</div>
 		</div>
 		<div id="answer_options">
@@ -41,10 +41,12 @@ function hidden(){document.body.style.overflow='hidden';}
 
 function errou(e){
 	e.target.classList.add('errado');
+	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
 }
 
 function acertou(e){
 	e.target.classList.add('certo');
+	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
 }
 
 document.getElementById("item01").addEventListener('click', function(e){
