@@ -11,10 +11,10 @@
 		<div id="menu" class="menu_oculto">
 			<span id="frase_mensagem" alt="Mensagem" class="text_menu"></span><br/>
 			<div id="voltar" class="menu_item">
-				<span class="text_menu">Voltar</span>
+				<a class="text_menu" href="index.html">Voltar</a>
 			</div>
 			<div id="novo_desafio" class="menu_item">
-				<span class="text_menu">Novo jogo</span>
+				<a class="text_menu" href="dificuldade.html">Novo Jogo</a>
 			</div>
 		</div>
 		<div id="question">
@@ -34,7 +34,6 @@
 			<div id="item03" class="answer_item">
 				<span class="text_question">7</span>
 			</div>
-
 		</div>
 		<div class="back_rounded_corner">
 			<a alt="Voltar" class="default_text " href="index.html" >Voltar</a>
@@ -47,55 +46,12 @@
 
 <script language="JavaScript">
 function hidden(){document.body.style.overflow='hidden';}
-
-function errou(e){
-	var element = e.target;
-	if(element.tagName == 'SPAN')
-		element = element.parentElement;
-
-	element.classList.add('errado');
-
-	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
-
-	document.getElementById("frase_mensagem").innerHTML = "Que pena! Você errou.";
-	document.getElementById("menu").classList.remove("menu_oculto");
-	document.getElementById("menu").classList.add("menu_exibido");
-
-	document.getElementById("item01").removeEventListener('click');
-	document.getElementById("item02").removeEventListener('click');
-	document.getElementById("item03").removeEventListener('click');
-
-}
-
-function acertou(e){
-	var element = e.target;
-	if(element.tagName == 'SPAN')
-		element = element.parentElement;
-
-	element.classList.add('certo');
-
-	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
-
-	document.getElementById("frase_mensagem").innerHTML = "Parabéns! Você acertou.";
-	document.getElementById("menu").classList.remove("menu_oculto");
-	document.getElementById("menu").classList.add("menu_exibido");
-
-	document.getElementById("item01").removeEventListener('click');
-	document.getElementById("item02").removeEventListener('click');
-	document.getElementById("item03").removeEventListener('click');
-
-}
-
-document.getElementById("item01").addEventListener('click', function(e){
-	errou(e);
-});
-
-document.getElementById("item02").addEventListener('click', function(e){
-	errou(e);
-});
-
-document.getElementById("item03").addEventListener('click', function(e){
-	acertou(e);
-});
-
 </script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+
+<script src="scripts/script.js"></script>
