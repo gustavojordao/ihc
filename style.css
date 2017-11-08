@@ -12,6 +12,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   color: #3b4049;
+  margin-bottom: 30px;
 }
 
 #jogar {
@@ -123,8 +124,9 @@ a, a.visited {
 
 p {
   font-family: "Titan One";
-  font-size: 24px;
+  font-size: 30px;
   color: #3b4049;
   text-align: justify;
   margin-left: 50px;
   margin-right: 50px;
+}
