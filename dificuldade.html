@@ -4,19 +4,19 @@
 		<link rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Patua+One|Titan+One" rel="stylesheet">
 		<link rel="icon" type="favicon.ico" href="assets/images/favicon.ico">
-		<title>Matemágica</title>
+		<title>MATEMÁGICA</title>
 	</head>
-	<body class="background_class">
-		<h1 id="choose_dificulty"> Escolha uma dificuldade</h1>
+	<body class="background_class" onLoad="hidden()">
+		<h1 id="choose_dificulty" class="zoomTarget"> Escolha uma dificuldade</h1>
 		<div>
 			<div class="dificulty_rounded_corner">
-				<a class="default_text" href="facil.html" >Fácil</a>
+				<a class="default_text" href="facil.html">Fácil</a>
 			</div>
 			<div class="dificulty_rounded_corner">
-				<a class="default_text" href="medio.html" >Médio</a>
+				<a class="default_text" href="medio.html">Médio</a>
 			</div>
-			<div class="dificulty_rounded_corner">
-				<a class="default_text" href="dificil.html" >Difícil</a>
+			<div class="dificulty_rounded_corner zoomTarget" data-closeclick="true">
+				<a class="default_text" href="dificil.html">Difícil</a>
 			</div>
 		</div>
 		<div class="back_rounded_corner">
@@ -28,3 +28,11 @@
 <script language="JavaScript">
 function hidden(){document.body.style.overflow='hidden';}
 </script>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+
+<script src="scripts/jquery.zoomooz.min.js"></script>

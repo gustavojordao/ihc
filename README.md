@@ -10,6 +10,6 @@ Engenharia de Computação, CEFET-MG, 2017/2
 * [Thiago Alexandre]()
 
 **Observações ao grupo**
-- Se possível, desabilitar rolagem de tela;
+
 - Conferir exibição em telas de tamanhos diferentes;
 - Lembrar de colocar os gifs do Bob Esponja e do Lula Molusco :D
