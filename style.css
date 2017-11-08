@@ -103,6 +103,27 @@ a, a.visited {
   font-size: 80;
 }
 
+.level_rounded_corner {
+  position: ;
+  border-radius: 25px;
+  background: #afdced;
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.level_text{
+  font-family: "Titan One";
+  font-size: 26px;
+  text-decoration: none;
+  color: #3b4049;
+}
+
+
 
 .blank_question {
   border-radius: 25px;
@@ -168,8 +189,8 @@ a, a.visited {
   text-align: center;
 }
 .expand_icon {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -179,13 +200,13 @@ p {
   font-size: 30px;
   color: #3b4049;
   text-align: justify;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 p a{
     text-decoration: none;
-    color: #0096ed;
+    color: #03465e;
 }
 
 button.css3button {
