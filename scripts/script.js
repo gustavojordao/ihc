@@ -1,15 +1,20 @@
 $(document).ready(function() {
-    $("#btn1").click(function(evt) {
-        $("#zoome").zoomTo({targetsize:0.75, duration:600});
-        $(".background_class").click(function(evt2){
-          $(".background_class").zoomTo({targetsize:1, duration:600});
-          evt2.stopPropagation();
-        });
-        evt.stopPropagation();
-    });
+
+  $("#btn1").click(function(evt) {
+      $("#zoome").zoomTo({targetsize:0.75, duration:600});
+      $(".background_class").click(function(evt2){
+        $(".background_class").zoomTo({targetsize:1, duration:600});
+        evt2.stopPropagation();
+      });
+      evt.stopPropagation();
+  });
 
 	$("#btnVoltar").click(function(){
 		$("#menu").removeClass("menu_exibido").addClass("menu_oculto");
 	})
 
+	function toogleProximo(e){
+		$("#btnProximo").removeClass("botao_oculto").addClass("botao_aparente");
+	}
+	
 });

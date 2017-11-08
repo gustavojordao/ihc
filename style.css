@@ -123,8 +123,6 @@ a, a.visited {
   color: #3b4049;
 }
 
-
-
 .blank_question {
   border-radius: 25px;
   background: #a1bac4;
@@ -310,4 +308,11 @@ button.css3button {
   background-color: rgba(150, 150, 150, .7);
   width: 50%;
   margin: 0 25% auto;
+}
+
+.botao_oculto{
+  display: none;
+}
+.botao_aparente{
+  display: inline-block;
 }

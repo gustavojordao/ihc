@@ -13,6 +13,9 @@
 			<div id="btnVoltar" class="menu_item">
 				<span class="text_menu">Voltar</span>
 			</div>
+			<div id="btnProximo" class="menu_item botao_oculto">
+				<a class="text_menu" href="medio.html">Próximo</a>
+			</div>
 			<div id="novo_desafio" class="menu_item">
 				<a class="text_menu" href="dificuldade.html">Novo Jogo</a>
 			</div>
@@ -83,6 +86,8 @@
 		document.getElementById("frase_mensagem").innerHTML = "Parabéns! Você acertou.";
 		document.getElementById("menu").classList.remove("menu_oculto");
 		document.getElementById("menu").classList.add("menu_exibido");
+		document.getElementById("btnProximo").classList.remove("botao_oculto");
+		document.getElementById("btnProximo").classList.add("botao_aparente");
 
 		document.getElementById("item01").removeEventListener('click', e, false);
 		document.getElementById("item02").removeEventListener('click', e, false);
