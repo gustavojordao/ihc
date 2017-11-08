@@ -127,7 +127,7 @@ a, a.visited {
 
 .blank_question {
   border-radius: 25px;
-  background: #779977;
+  background: #a1bac4;
   padding: 20px;
   width: 200px;
   height: 75px;
@@ -150,7 +150,7 @@ a, a.visited {
 
 .answer_item {
   border-radius: 25px;
-  background: #777799;
+  background: #a5af97;
   padding: 20px;
   width: 200px;
   /* height: 75px; */
@@ -248,6 +248,15 @@ button.css3button {
 }
 
 .text_question{
+  font-family: "Patua One";
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+  display: block;
+}
+
+.text_answer{
   font-family: "Patua One";
   font-size: 100px;
   text-align: center;
