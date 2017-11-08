@@ -106,7 +106,7 @@ a, a.visited {
 
 .blank_question {
   border-radius: 25px;
-  background: #73AD21;
+  background: #779977;
   padding: 20px;
   width: 200px;
   height: 75px;
@@ -129,7 +129,7 @@ a, a.visited {
 
 .answer_item {
   border-radius: 25px;
-  background: #73AD21;
+  background: #777799;
   padding: 20px;
   width: 200px;
   /* height: 75px; */
@@ -233,4 +233,12 @@ button.css3button {
   text-decoration: none;
   color: #3b4049;
   margin: 0 0 0 0;
+}
+
+.errado{
+  background-color: #AA0000;
+}
+
+.certo{
+  background-color: #00AA00;
 }
