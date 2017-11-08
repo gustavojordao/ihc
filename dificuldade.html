@@ -7,7 +7,7 @@
 		<title>MATEMÁGICA</title>
 	</head>
 	<body class="background_class" onLoad="hidden()">
-		<h1 id="choose_dificulty" class="zoomTarget"> Escolha uma dificuldade</h1>
+		<h1 id="choose_dificulty"> Escolha uma dificuldade</h1>
 		<div>
 			<div class="dificulty_rounded_corner">
 				<a class="default_text" href="facil.html">Fácil</a>
@@ -15,8 +15,13 @@
 			<div class="dificulty_rounded_corner">
 				<a class="default_text" href="medio.html">Médio</a>
 			</div>
-			<div class="dificulty_rounded_corner zoomTarget" data-closeclick="true">
-				<a class="default_text" href="dificil.html">Difícil</a>
+			<div class="relative">
+				<div id= "zoome" class="dificulty_rounded_corner">
+					<a class="default_text" href="dificil.html">Difícil</a>
+				</div>
+				<div class="absolute">
+					<button type="button" id="btn1" class="css3button"><img src="assets/images/expand20x20.png"></button>
+				</div>
 			</div>
 		</div>
 		<div class="back_rounded_corner">
@@ -36,3 +41,4 @@ function hidden(){document.body.style.overflow='hidden';}
 </script>
 
 <script src="scripts/jquery.zoomooz.min.js"></script>
+<script src="scripts/script.js"></script>
