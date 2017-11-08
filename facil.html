@@ -8,6 +8,15 @@
 	</head>
 	<body class="background_class">
 		<h1 alt="Responda" id="answer_title">Responda: </h1>
+		<div id="menu" class="menu_oculto">
+			<span id="frase_mensagem" alt="Mensagem" class="text_menu"></span><br/>
+			<div id="voltar" class="menu_item">
+				<span class="text_menu">Voltar</span>
+			</div>
+			<div id="novo_desafio" class="menu_item">
+				<span class="text_menu">Novo jogo</span>
+			</div>
+		</div>
 		<div id="question">
 			<div class="content_question">
 				<span alt="Dois mais Cinco" class="text_question">2 + 5 = </span>
@@ -47,6 +56,15 @@ function errou(e){
 	element.classList.add('errado');
 
 	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
+
+	document.getElementById("frase_mensagem").innerHTML = "Que pena! Você errou.";
+	document.getElementById("menu").classList.remove("menu_oculto");
+	document.getElementById("menu").classList.add("menu_exibido");
+
+	document.getElementById("item01").removeEventListener('click');
+	document.getElementById("item02").removeEventListener('click');
+	document.getElementById("item03").removeEventListener('click');
+
 }
 
 function acertou(e){
@@ -57,6 +75,15 @@ function acertou(e){
 	element.classList.add('certo');
 
 	document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">7</span>";
+
+	document.getElementById("frase_mensagem").innerHTML = "Parabéns! Você acertou.";
+	document.getElementById("menu").classList.remove("menu_oculto");
+	document.getElementById("menu").classList.add("menu_exibido");
+
+	document.getElementById("item01").removeEventListener('click');
+	document.getElementById("item02").removeEventListener('click');
+	document.getElementById("item03").removeEventListener('click');
+
 }
 
 document.getElementById("item01").addEventListener('click', function(e){

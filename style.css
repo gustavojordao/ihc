@@ -275,3 +275,39 @@ button.css3button {
 .certo{
   background-color: #00AA00;
 }
+
+.menu_item {
+  border-radius: 25px;
+  background-color: rgba(150, 150, 150, .9);
+  padding: 20px;
+  width: 100px;
+  /* height: 75px; */
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.text_menu{
+  font-family: "Patua One";
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+  line-height: 1.1em;
+  margin: 0 0 0 0;
+}
+
+.menu_oculto{
+  display: none;
+}
+
+.menu_exibido{
+  border-radius: 25px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 50px 50px;
+  z-index: 10;
+  background-color: rgba(150, 150, 150, .7);
+}
