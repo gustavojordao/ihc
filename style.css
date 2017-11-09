@@ -305,7 +305,7 @@ button.css3button {
   position: absolute;
   padding: 50px 50px 50px 50px;
   z-index: 10;
-  background-color: rgba(150, 150, 150, .7);
+  background-color: #afdced;
   width: 50%;
   margin: 0 25% auto;
 }
