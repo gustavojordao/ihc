@@ -1,9 +1,15 @@
-.background_class {
+.background_index {
   margin: 0 auto;
   padding: 0;
   background-image: url(assets/images/background_index.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.background_class {
+  margin: 0 auto;
+  padding: 0;
+  background-color: E8F1F2;
 }
 
 h1 {
@@ -66,6 +72,15 @@ a, a.visited {
   color: #3b4049;
 }
 
+#play {
+  width: 250px;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 100px;
+  right: 90px;
+  margin: 0 auto;
+}
+
 .dificulty_rounded_corner {
   border-radius: 25px;
   background: #73AD21;
@@ -89,6 +104,7 @@ a, a.visited {
   position: absolute;
   bottom: 50px;
   left: 50px;
+  box-shadow: 2px 2px #848C8E;
 }
 
 .default_text{
@@ -114,6 +130,7 @@ a, a.visited {
   position: absolute;
   top: 20px;
   right: 50px;
+  box-shadow: 2px 2px #848C8E;
 }
 
 .level_text{
@@ -125,7 +142,7 @@ a, a.visited {
 
 .blank_question {
   border-radius: 25px;
-  background: #a1bac4;
+  background: #4BC7EA;
   padding: 20px;
   width: 200px;
   height: 110px;
@@ -133,6 +150,7 @@ a, a.visited {
   margin-left: auto;
   margin-right: auto;
   line-height: 5em;
+  box-shadow: 2px 2px #848C8E;
   /*margin-bottom: 35px;*/
 }
 
@@ -151,8 +169,8 @@ a, a.visited {
   border-radius: 25px;
   background: #a5af97;
   padding: 20px;
-  width: 200px;
-  /* height: 75px; */
+  width: 150px;
+  box-shadow: 2px 2px #848C8E;
   display: inline-block;
 
 }
@@ -167,6 +185,7 @@ a, a.visited {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 35px;
+  box-shadow: 2px 2px #848C8E;
 }
 
 #answer_title{
@@ -204,8 +223,7 @@ p {
 }
 
 p a{
-    text-decoration: none;
-    color: #03465e;
+    color: #41393E;
 }
 
 button.css3button {
@@ -281,8 +299,8 @@ button.css3button {
   /* width: 100px; */
   /* height: 75px; */
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-top: 20px;
 }
 
@@ -293,7 +311,29 @@ button.css3button {
   text-decoration: none;
   color: #3b4049;
   line-height: 1.1em;
-  margin: 0 0 0 0;
+  margin: 0 auto;
+}
+
+#frase_mensagem {
+  font-family: "Patua One";
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+  line-height: 1.1em;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+#frase_mensagem2 {
+  font-family: "Patua One";
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #3b4049;
+  line-height: 1.1em;
+  margin: 0 auto;
+  padding: 45px;
 }
 
 .menu_oculto{

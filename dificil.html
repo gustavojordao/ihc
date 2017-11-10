@@ -11,15 +11,28 @@
 		<div id="menu" class="menu_oculto">
 			<span id="frase_mensagem" alt="Mensagem" class="text_menu"></span><br/>
 			<div id="btnVoltar" class="menu_item">
-				<span class="text_menu">Voltar</span>
+				<span class="text_menu">Repetir</span>
 			</div>
 			<div id="novo_desafio" class="menu_item">
 				<a class="text_menu" href="dificuldade.html">Novo Jogo</a>
 			</div>
 		</div>
+
+		<div id="menu2" class="menu_oculto">
+			<span id="frase_mensagem2" alt="Mensagem" class="text_menu"></span><br/>
+			<div id="novo_desafio2" class="menu_item">
+				<a class="text_menu" href="dificuldade.html">Novo Jogo</a>
+			</div>
+			<div id="btnProximo2" class="menu_item botao_oculto">
+				<a class="text_menu" href="medio.html">Próximo</a>
+			</div>
+		</div>
+
+
+
 		<div id="question">
 			<div class="content_question">
-				<span alt="Dois mais Cinco" class="text_question">6 / 4 = </span>
+				<span alt="Seis dividido por quatro" class="text_question">6 / 4 = </span>
 			</div>
 			<div id="correct_answer" class="blank_question">
 			</div>
@@ -36,10 +49,10 @@
 			</div>
 		</div>
 		<div class="back_rounded_corner">
-			<a alt="Voltar" class="default_text " href="index.html" >Voltar</a>
+			<a alt="Voltar" class="default_text " href="dificuldade.html" >Voltar</a>
 		</div>
 		<div class="level_rounded_corner">
-			<span alt="Fácil" class="level_text ">Difícil</span>
+			<span alt="Difícil" class="level_text ">Difícil</span>
 		</div>
 	</body>
 </html>
@@ -80,9 +93,9 @@ function hidden(){document.body.style.overflow='hidden';}
 
 		document.getElementById("correct_answer").innerHTML = "<span class=\"text_question\">1.5</span>";
 
-		document.getElementById("frase_mensagem").innerHTML = "Parabéns! Você acertou.";
-		document.getElementById("menu").classList.remove("menu_oculto");
-		document.getElementById("menu").classList.add("menu_exibido");
+		document.getElementById("frase_mensagem2").innerHTML = "Parabéns! Você acertou.";
+		document.getElementById("menu2").classList.remove("menu_oculto");
+		document.getElementById("menu2").classList.add("menu_exibido");
 
 		document.getElementById("item01").removeEventListener('click', e, false);
 		document.getElementById("item02").removeEventListener('click', e, false);
